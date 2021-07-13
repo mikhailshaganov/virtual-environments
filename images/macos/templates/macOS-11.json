@@ -190,7 +190,8 @@
                 "./provision/core/firefox.sh",
                 "./provision/core/pypy.sh",
                 "./provision/core/pipx-packages.sh",
-                "./provision/core/bicep.sh"
+                "./provision/core/bicep.sh",
+                "./provision/core/kotlin.sh"
             ]
         },
         {
