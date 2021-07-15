@@ -178,7 +178,8 @@
                 "./provision/core/pypy.sh",
                 "./provision/core/pipx-packages.sh",
                 "./provision/core/xcode-sims.sh",
-                "./provision/core/build-xcode-symlinks.sh"
+                "./provision/core/build-xcode-symlinks.sh",
+                "./provision/core/kotlin.sh"
             ]
         },
         {
