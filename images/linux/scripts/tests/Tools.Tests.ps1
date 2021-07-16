@@ -81,6 +81,12 @@ Describe "Docker-compose" {
     }
 }
 
+Describe "Koltin" {
+    It "kotlin" {
+        "kotlin --version"| Should -ReturnZeroExitCode
+    }
+}
+
 Describe "Ansible" {
     It "Ansible" {
         "ansible --version" | Should -ReturnZeroExitCode
