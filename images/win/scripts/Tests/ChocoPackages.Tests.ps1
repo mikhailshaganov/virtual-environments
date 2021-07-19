@@ -97,3 +97,9 @@ Describe "CMake" {
         "cmake --version" | Should -ReturnZeroExitCode
     }
 }
+
+Describe "Kotlin" {
+    It "kotlin" {
+        "kotlin --version" | Should -ReturnZeroExitCode
+    }
+}

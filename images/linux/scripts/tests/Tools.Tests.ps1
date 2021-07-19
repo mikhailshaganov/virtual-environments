@@ -81,7 +81,7 @@ Describe "Docker-compose" {
     }
 }
 
-Describe "Koltin" {
+Describe "Kotlin" {
     It "kapt" {
         "kapt --version"| Should -ReturnZeroExitCode
     }
