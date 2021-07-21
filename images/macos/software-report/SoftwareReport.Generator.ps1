@@ -120,6 +120,7 @@ $utilitiesList = @(
     (Get-PostgresServerVersion),
     (Get-Aria2Version),
     (Get-AzcopyVersion),
+    (Get-KotlinVersion),
     (Get-ZstdVersion),
     (Get-BazelVersion),
     (Get-BazeliskVersion),

@@ -342,6 +342,12 @@ function Get-AzcopyVersion {
     return "azcopy $azcopyVersion"
 }
 
+function Get-KotlinVersion {
+    $kotlinVersion = Run-Command "kotlin -version" | Take-Part -Part 2
+    return "kotlin $kotlinVersion"
+}
+
+
 function Get-ZstdVersion {
     $zstdVersion = Run-Command "zstd --version" | Take-Part -Part 1 -Delimiter "v" | Take-Part -Part 0 -Delimiter ","
     return "zstd $zstdVersion"
